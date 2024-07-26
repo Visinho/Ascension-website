@@ -7,7 +7,7 @@ import "../styles/Program.css";
 const Programs = () => {
   return (
     <div className="program">
-      <h1 className="menuTitle">Our Programs</h1>
+      <h1 className="menuTitle"><u>Our Programs</u></h1>
       <div className="programList">
         {ProgramList.map((programList, key) => {
           return (

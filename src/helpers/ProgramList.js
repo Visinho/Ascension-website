@@ -1,12 +1,12 @@
 import PrayerMeeting from "../assets/BibleImage.avif";
 import HourofGrace from "../assets/Hour-of-grace.jpg";
-import FaithClinic from "../assets/Faith-Clinic.jpg";
 import SundayService from "../assets/Sunday-service.jpg";
+import PrayerImage from "../assets/PrayerImage.jpg";
 import SundayBibleStudy from "../assets/Sunday-Bible-Study.jpg";
 
 export const ProgramList = [
   {
-    name: "Monday Prayer Meeting",
+    name: "1st day of the Month Prayers",
     image: PrayerMeeting,
     time: "6:00 - 8:00 PM",
   },
@@ -16,8 +16,8 @@ export const ProgramList = [
     time: "6:00 - 8:00 PM",
   },
   {
-    name: "Friday Faith Clinic",
-    image: FaithClinic,
+    name: "Friday Prayer Meetings",
+    image: PrayerImage,
     time: "6:00 - 8:00 PM",
   },
   {
