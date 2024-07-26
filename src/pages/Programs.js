@@ -1,10 +1,12 @@
 import React from "react";
 import { ProgramList } from "../helpers/ProgramList";
 import ProgramItem from "../components/ProgramItem";
+import "../styles/Program.css";
+
 
 const Programs = () => {
   return (
-    <div className="programs">
+    <div className="program">
       <h1 className="menuTitle">Our Programs</h1>
       <div className="programList">
         {ProgramList.map((programList, key) => {

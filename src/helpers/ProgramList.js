@@ -1,7 +1,7 @@
 import PrayerMeeting from "../assets/BibleImage.avif";
 import HourofGrace from "../assets/Hour-of-grace.jpg";
 import FaithClinic from "../assets/Faith-Clinic.jpg";
-import SundayService from "../assets/Sunday service.jpg";
+import SundayService from "../assets/Sunday-service.jpg";
 import SundayBibleStudy from "../assets/Sunday-Bible-Study.jpg";
 
 export const ProgramList = [
