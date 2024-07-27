@@ -1,6 +1,8 @@
 import React from "react";
 import ChurchImage from "../assets/Church-photo.jpg";
 import "../styles/About.css";
+import LeaderItem from "../components/LeaderItem";
+import { LeaderList } from "../helpers/LeaderList";
 
 const About = () => {
   return (
@@ -44,6 +46,20 @@ const About = () => {
           to learn more and stay connected.
         </p>
       </div>
+          <div className="program">
+          <h1 className="menuTitle"><u>Our Leaders</u></h1>
+          <div className="programList">
+            {LeaderList.map((leaderList, key) => {
+              return (
+                <LeaderItem
+                  image={leaderList.image}
+                  name={leaderList.name}
+                  title={leaderList.title}
+                />
+              );
+            })}
+          </div>
+        </div>
     </div>
   );
 };
