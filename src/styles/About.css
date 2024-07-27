@@ -1,6 +1,6 @@
 .about {
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -36,3 +36,33 @@
     transform: translateY(-40px);
   }
   
+
+/* Media query for screens 900px and below */
+@media only screen and (max-width: 900px) {
+  .aboutBottom p {
+    width: 90%;
+  }
+
+  .about .aboutBottom h1 {
+    font-size: 50px;
+  }
+}
+
+/* Media query for screens 600px and below */
+@media only screen and (max-width: 600px) {
+  .aboutBottom p {
+    width: 95%;
+  }
+
+  .about .aboutBottom h1 {
+    font-size: 40px;
+  }
+  
+  .aboutTop {
+    height: 50%;
+  }
+  
+  .aboutBottom {
+    margin-top: 30px;
+  }
+}
