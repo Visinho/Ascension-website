@@ -3,6 +3,7 @@ import HourofGrace from "../assets/Hour-of-grace.jpg";
 import SundayService from "../assets/Sunday-service.jpg";
 import PrayerImage from "../assets/PrayerImage.jpg";
 import SundayBibleStudy from "../assets/Sunday-Bible-Study.jpg";
+import Elvisinho from "../assets/Elvisinho.jpeg";
 
 export const LeaderList = [
   {
@@ -31,8 +32,8 @@ export const LeaderList = [
     title: "M.C.F Chairman",
   },
   {
-    name: "Mr Elvis Njoku",
-    image: PrayerImage,
+    name: "Engr Elvis Njoku",
+    image: Elvisinho,
     title: "Youth Leader",
   },
   {

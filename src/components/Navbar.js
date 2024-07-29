@@ -22,7 +22,7 @@ return (
       <div className={`links ${openLinks ? "open" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/programs">Programs</Link>
-        <Link to="/about">About</Link>
+        <Link to="/about">About Us</Link>
         <Link to="/contact">Contact</Link>
       </div>
       <button onClick={toggleNavbar}>
