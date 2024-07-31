@@ -12,6 +12,9 @@ function Home() {
         <Link to="/programs">
           <button> VIEW OUR PROGRAMS </button>
         </Link>
+        <div className="fancyText">
+          <p className="">And don't forget to drop your prayer points through the form on the Contact Page. We would love to pray with you and God bless you as you do so... AMEN!</p>
+        </div>
       </div>
     </div>
   );
