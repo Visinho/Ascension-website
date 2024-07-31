@@ -1,9 +1,10 @@
 import PrayerMeeting from "../assets/BibleImage.avif";
 import HourofGrace from "../assets/Hour-of-grace.jpg";
 import SundayService from "../assets/Sunday-service.jpg";
-import PrayerImage from "../assets/PrayerImage.jpg";
 import SundayBibleStudy from "../assets/Sunday-Bible-Study.jpg";
 import Elvisinho from "../assets/Elvisinho.jpeg";
+import MCFChairman from "../assets/MCFChairman.jpeg"
+import SundaySchLeader from "../assets/SundaySchoolSuperintendent.jpeg";
 
 export const LeaderList = [
   {
@@ -28,7 +29,7 @@ export const LeaderList = [
   },
   {
     name: "Mr Nelson Nnoli",
-    image: PrayerImage,
+    image: MCFChairman,
     title: "M.C.F Chairman",
   },
   {
@@ -38,7 +39,7 @@ export const LeaderList = [
   },
   {
     name: "Mrs Jennifer Onyemaechi",
-    image: PrayerImage,
+    image: SundaySchLeader,
     title: "Sunday School Superintendant",
   }
 ];
