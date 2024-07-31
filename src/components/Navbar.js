@@ -12,6 +12,10 @@ const Navbar = () => {
         setOpenLinks(!openLinks);
     }
 
+    const closeNavbar = () => {
+      setOpenLinks(false);
+    }
+
 return (
   <div className='navbar'>
     <div className='leftSide'>
@@ -20,10 +24,10 @@ return (
     </div>
     <div className='rightSide'>
       <div className={`links ${openLinks ? "open" : ""}`}>
-        <Link to="/">Home</Link>
-        <Link to="/programs">Programs</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" onClick={closeNavbar}>Home</Link>
+        <Link to="/programs" onClick={closeNavbar}>Programs</Link>
+        <Link to="/about" onClick={closeNavbar}>About Us</Link>
+        <Link to="/contact" onClick={closeNavbar}>Contact</Link>
       </div>
       <button onClick={toggleNavbar}>
         <ReorderIcon />

@@ -28,14 +28,14 @@ export const LeaderList = [
     title: "Verger",
   },
   {
-    name: "Dr Joy Ajero",
-    image: HourofGrace,
-    title: "Women Leader",
-  },
-  {
     name: "Mr Nelson Nnoli",
     image: MCFChairman,
     title: "M.C.F Chairman",
+  },
+  {
+    name: "Dr Joy Ajero",
+    image: HourofGrace,
+    title: "Women Leader",
   },
   {
     name: "Engr Elvis Njoku",
