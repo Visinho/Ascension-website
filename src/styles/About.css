@@ -14,19 +14,34 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
-  .aboutBottom {
+  /* .aboutBottom {
     display: flex;
     flex-direction: column;
     height: 55%;
     align-items: center;
     margin-top: 10px;
+  } */
+
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px; /* Added padding for better spacing */
   }
   
-  .aboutBottom p {
+  /* .aboutBottom p {
     width: 1200px;
+  } */
+
+  .aboutBottom p {
+    width: 80%; /* Use percentages for fluid layouts */
+    max-width: 1200px; /* Set a max-width for larger screens */
+    line-height: 1.5; /* Improve readability */
+    font-size: 1rem; /* Base font size */
   }
   
-  .about .aboutBottom h1 {
+  /* .about .aboutBottom h1 {
     font-weight: 400;
     font-size: 70px;
     color: black;
@@ -34,11 +49,22 @@
     display: flex;
     justify-content: center;
     transform: translateY(-40px);
+  } */
+
+  .about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 3.5rem; /* Use rem units for scalable fonts */
+    color: black;
+    height: auto; /* Adjust height to fit content */
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+    margin: 20px 0; /* Added margin for spacing */
   }
   
 
 /* Media query for screens 900px and below */
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .aboutBottom p {
     width: 90%;
   }
@@ -46,10 +72,10 @@
   .about .aboutBottom h1 {
     font-size: 50px;
   }
-}
+} */
 
 /* Media query for screens 600px and below */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .aboutBottom p {
     width: 95%;
   }
@@ -65,4 +91,43 @@
   .aboutBottom {
     margin-top: 30px;
   }
-}
+} */
+
+/* Media query for large screens */
+@media only screen and (min-width: 1200px) {
+    .about .aboutBottom h1 {
+      font-size: 4rem; /* Larger font size for large screens */
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media only screen and (max-width: 900px) {
+    .aboutBottom p {
+      width: 90%; /* Slightly wider for medium screens */
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 3rem; /* Smaller font size */
+    }
+  }
+  
+  /* Media query for small screens */
+  @media only screen and (max-width: 600px) {
+    .aboutBottom p {
+      width: 95%; /* Wider for small screens */
+      font-size: 0.9rem; /* Smaller text size for small screens */
+    }
+  
+    .about .aboutBottom h1 {
+      font-size: 2.5rem; /* Smaller font size */
+    }
+    
+    .aboutTop {
+      height: 50%; /* More height for smaller screens */
+    }
+    
+    .aboutBottom {
+      margin-top: 20px; /* Adjusted margin */
+      padding: 10px; /* Reduced padding */
+    }
+  }
