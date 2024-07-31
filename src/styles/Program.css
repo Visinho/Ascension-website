@@ -6,51 +6,30 @@
     align-items: center;
     flex-direction: column;
   }
-  /* .program .programTitle {
-    font-family: cursive;
-    font-size: 60px;
-  } */
+  
 
   .program .programTitle {
     font-family: cursive;
     font-size: 60px;
     margin-bottom: 20px;
-    text-align: center; /* Center title text */
+    text-align: center; 
   }
-  
-  /* .programList {
-    width: 70vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-  } */
 
   .programList {
     width: 100%;
-    max-width: 1200px; /* Limit maximum width for larger screens */
+    max-width: 1200px; 
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Use repeat for cleaner syntax */
-    gap: 20px; /* Add gap between items for better spacing */
-    justify-items: center; /* Center items horizontally within their grid cells */
-    padding: 0 20px; /* Add padding to avoid edge sticking */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    padding: 0 20px; 
     box-sizing: border-box;
   }
-  
-  /* PROGRAM ITEM STYLING */
-  
-  /* .programItem {
-    border-radius: 15px;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  } */
 
   .programItem {
     border-radius: 15px;
     width: 100%;
-    max-width: 300px; /* Ensure max width for larger screens */
+    max-width: 300px; 
     height: 350px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease-in;
@@ -76,17 +55,6 @@
     margin-left: 20px;
   }
   
-  /* @media only screen and (max-width: 1300px) {
-    .programList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .programList {
-      grid-template-columns: 1fr;
-    }
-  } */
 
   /* For larger tablets and small desktops */
 @media only screen and (max-width: 1300px) {
@@ -99,21 +67,21 @@
 @media only screen and (max-width: 800px) {
   .programList {
     grid-template-columns: 1fr;
-    width: 90%; /* Reduce width for smaller screens */
-    padding: 0; /* Remove padding to utilize full screen width */
+    width: 90%; 
+    padding: 0; 
   }
 
   .program .programTitle {
-    font-size: 40px; /* Reduce font size for smaller screens */
+    font-size: 40px; 
   }
 
   .programItem {
-    margin: 10px; /* Reduce margin for smaller screens */
+    margin: 10px; 
   }
 
   .programItem h1,
   .programItem p {
-    margin-left: 10px; /* Reduce text margin for smaller screens */
+    margin-left: 10px; 
   }
 }
   

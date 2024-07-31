@@ -60,7 +60,7 @@
     }
   
     .navbar .rightSide button {
-      display: block; /* Show button on smaller screens */
+      display: block; 
     }
   }
   

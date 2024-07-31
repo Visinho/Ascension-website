@@ -23,6 +23,11 @@ export const LeaderList = [
     title: "Pastor's Warden",
   },
   {
+    name: "Mr Chukwudi Ude",
+    image: HourofGrace,
+    title: "Verger",
+  },
+  {
     name: "Dr Joy Ajero",
     image: HourofGrace,
     title: "Women Leader",

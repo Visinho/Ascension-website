@@ -14,120 +14,69 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
-  /* .aboutBottom {
-    display: flex;
-    flex-direction: column;
-    height: 55%;
-    align-items: center;
-    margin-top: 10px;
-  } */
-
   .aboutBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    padding: 20px; /* Added padding for better spacing */
+    padding: 20px; 
   }
-  
-  /* .aboutBottom p {
-    width: 1200px;
-  } */
 
   .aboutBottom p {
-    width: 80%; /* Use percentages for fluid layouts */
-    max-width: 1200px; /* Set a max-width for larger screens */
-    line-height: 1.5; /* Improve readability */
-    font-size: 1rem; /* Base font size */
+    width: 80%; 
+    margin-top: -30px;
+    max-width: 1200px; 
+    line-height: 1.5; 
+    font-size: 1rem; 
   }
-  
-  /* .about .aboutBottom h1 {
-    font-weight: 400;
-    font-size: 70px;
-    color: black;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-40px);
-  } */
 
   .about .aboutBottom h1 {
     font-weight: 400;
-    font-size: 3.5rem; /* Use rem units for scalable fonts */
+    font-size: 3.5rem; 
     color: black;
-    height: auto; /* Adjust height to fit content */
+    height: auto;
     display: flex;
     justify-content: center;
     transform: translateY(-40px);
-    margin: 20px 0; /* Added margin for spacing */
+    margin: 10px 0; 
   }
   
-
-/* Media query for screens 900px and below */
-/* @media only screen and (max-width: 900px) {
-  .aboutBottom p {
-    width: 90%;
-  }
-
-  .about .aboutBottom h1 {
-    font-size: 50px;
-  }
-} */
-
-/* Media query for screens 600px and below */
-/* @media only screen and (max-width: 600px) {
-  .aboutBottom p {
-    width: 95%;
-  }
-
-  .about .aboutBottom h1 {
-    font-size: 40px;
-  }
-  
-  .aboutTop {
-    height: 50%;
-  }
-  
-  .aboutBottom {
-    margin-top: 30px;
-  }
-} */
 
 /* Media query for large screens */
 @media only screen and (min-width: 1200px) {
     .about .aboutBottom h1 {
-      font-size: 4rem; /* Larger font size for large screens */
+      font-size: 4rem; 
     }
   }
   
   /* Media query for medium screens */
   @media only screen and (max-width: 900px) {
     .aboutBottom p {
-      width: 90%; /* Slightly wider for medium screens */
+      width: 90%; 
     }
   
     .about .aboutBottom h1 {
-      font-size: 3rem; /* Smaller font size */
+      font-size: 3rem; 
     }
   }
   
   /* Media query for small screens */
   @media only screen and (max-width: 600px) {
     .aboutBottom p {
-      width: 95%; /* Wider for small screens */
-      font-size: 0.9rem; /* Smaller text size for small screens */
+      width: 95%; 
+      font-size: 0.9rem; 
     }
   
     .about .aboutBottom h1 {
-      font-size: 2.5rem; /* Smaller font size */
+      font-size: 2.5rem; 
     }
     
     .aboutTop {
-      height: 50%; /* More height for smaller screens */
+      height: 50%; 
     }
     
     .aboutBottom {
-      margin-top: 20px; /* Adjusted margin */
-      padding: 10px; /* Reduced padding */
+      margin-top: 20px; 
+      padding: 10px; 
     }
   }

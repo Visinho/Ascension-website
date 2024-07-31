@@ -12,7 +12,7 @@ const About = () => {
         style={{ backgroundImage: `url(${ChurchImage})` }}
       ></div>
       <div className="aboutBottom">
-        <h1>ABOUT US</h1>
+        <h1><u>ABOUT US</u></h1>
         <p>
           Welcome to the Anglican Church of the Ascension, where faith, hope,
           and love unite in a vibrant Anglican community. Our mission is to
